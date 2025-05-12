@@ -11,7 +11,7 @@ class StateMessageBuilder extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
         child: Text(
-      title ?? 'No Items',
+      title ?? 'No Item',
       style: AppTxtStyles.kMidTitleTextStyle.copyWith(color: txtColor),
     ));
   }
