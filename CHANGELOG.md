@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.0.2+1
+### Added
+- Added Optional TextAlign in State message builder.
+
 ## 0.0.2
 ### Added
 - Simple builder-based APIs to handle different UI states
