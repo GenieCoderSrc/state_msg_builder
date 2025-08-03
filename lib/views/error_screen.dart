@@ -2,8 +2,12 @@ import 'package:app_style/app_style.dart';
 import 'package:flutter/material.dart';
 
 class ErrorScreen extends StatelessWidget {
-  const ErrorScreen(
-      {super.key, this.errorDetails, this.txtColor, this.textStyle});
+  const ErrorScreen({
+    super.key,
+    this.errorDetails,
+    this.txtColor,
+    this.textStyle,
+  });
 
   final FlutterErrorDetails? errorDetails;
   final Color? txtColor;
@@ -11,15 +15,19 @@ class ErrorScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final theme = Theme.of(context);
     return Scaffold(
       backgroundColor: Colors.white,
       body: Center(
-          child: Text(
-            errorDetails.toString(),
-            style: textStyle ??
-                AppTxtStyles.kMidTitleTextStyle
-                    .copyWith(color: txtColor ?? Colors.deepOrange),
-          )),
+        child: Text(
+          errorDetails.toString(),
+          style:
+              textStyle ??
+                  theme.textTheme.titleSmall?.copyWith(
+                color: txtColor ?? Colors.blueGrey[800],
+              ),
+        ),
+      ),
     );
   }
 }
