@@ -2,7 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:app_style/app_style.dart';
 
 class LoadingBuilder extends StatelessWidget {
-  const LoadingBuilder({super.key, this.waitingTxt,this.textStyle,this.txtColor,});
+  const LoadingBuilder({
+    super.key,
+    this.waitingTxt,
+    this.textStyle,
+    this.txtColor,
+  });
 
   final String? waitingTxt;
   final TextStyle? textStyle;
@@ -12,16 +17,16 @@ class LoadingBuilder extends StatelessWidget {
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     return Center(
-      child:
-          waitingTxt != null
-              ? Text(
-                waitingTxt ?? 'Loading...',
-                style: textStyle ??
-                    theme.textTheme.titleSmall?.copyWith(
-                      color: txtColor ?? Colors.blueGrey.shade600,
-                    ),
-              )
-              : const CircularProgressIndicator(),
+      child: waitingTxt != null
+          ? Text(
+              waitingTxt ?? 'Loading...',
+              style:
+                  textStyle ??
+                  theme.textTheme.titleSmall?.copyWith(
+                    color: txtColor ?? Colors.blueGrey.shade600,
+                  ),
+            )
+          : const CircularProgressIndicator(),
     );
   }
 }

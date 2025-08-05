@@ -23,7 +23,7 @@ class ErrorScreen extends StatelessWidget {
           errorDetails.toString(),
           style:
               textStyle ??
-                  theme.textTheme.titleSmall?.copyWith(
+              theme.textTheme.titleSmall?.copyWith(
                 color: txtColor ?? Colors.blueGrey[800],
               ),
         ),
