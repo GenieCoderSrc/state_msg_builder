@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class StateMessageBuilder extends StatelessWidget {
   const StateMessageBuilder({
     super.key,

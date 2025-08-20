@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 import 'loading_builder.dart';
 
 class LoadingScreen extends StatelessWidget {
