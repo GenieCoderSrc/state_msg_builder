@@ -1,25 +1,23 @@
 name: state_msg_builder
 description: "A Flutter package to display customizable state messages such as error, no items, or loading messages with customizable text styles and colors."
-version: 0.0.2+2
+version: 0.0.3
 homepage: https://github.com/GenieCoderSrc/state_msg_builder
 repository: https://github.com/GenieCoderSrc/state_msg_builder
 issue_tracker: https://github.com/GenieCoderSrc/state_msg_builder/issues
 
 
 environment:
-  sdk: ^3.8.1
-  flutter: ">=1.17.0"
+  sdk: ^3.9.0
+  flutter: ">=3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
 
-  app_style: ^0.0.4
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^6.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:app_style/app_style.dart';
 
 class LoadingBuilder extends StatelessWidget {
   const LoadingBuilder({
