@@ -72,13 +72,12 @@ StateMessageBuilder(
 ## Notes
 - `StateMessageBuilder` and `ErrorMsgBuilder` can be easily customized for different use cases.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ---
 
-Feel free to open issues or contribute if you find ways to improve this widget!
+## Contributions
 
-## Author
-Shohidul Islam
+Feel free to open issues or pull requests.
+
+## License
+
+© MIT License. Developed with ❤️ by [Shohidul Islam](https://github.com/ShohidulProgrammer)
