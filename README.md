@@ -14,6 +14,8 @@ A Flutter package designed to easily display various state messages such as erro
 Add this to your `pubspec.yaml`:
 
 ```yaml
+resolution: workspace
+
 dependencies:
   state_msg_builder: <latest_version>
 ```
