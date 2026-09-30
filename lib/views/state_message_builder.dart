@@ -20,8 +20,7 @@ class StateMessageBuilder extends StatelessWidget {
     return Center(
       child: Text(
         title ?? 'No items available',
-        style:
-            textStyle ??
+        style: textStyle ??
             theme.textTheme.titleSmall?.copyWith(
               color: txtColor ?? Colors.blueGrey[800],
             ),

@@ -19,8 +19,7 @@ class LoadingBuilder extends StatelessWidget {
       child: waitingTxt != null
           ? Text(
               waitingTxt ?? 'Loading...',
-              style:
-                  textStyle ??
+              style: textStyle ??
                   theme.textTheme.titleSmall?.copyWith(
                     color: txtColor ?? Colors.blueGrey.shade600,
                   ),
